@@ -1,0 +1,835 @@
+/* start left portfolio */
+
+.lon {
+    background: rgb(4, 11, 20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 350px;
+    box-shadow: 5px 5px 15px rgb(4, 11, 20), -5px -5px 15px rgb(4, 11, 20);
+    z-index: 99;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.icon-left {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sorty {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* border: 9px solid rgb(44, 47, 63); */
+    box-shadow: 0 0 0 5px rgb(44, 47, 63);
+    /* display: block; */
+    margin: 30px auto;
+    transition: all .5s ease-in-out;
+}
+
+.sorty:hover {
+    box-shadow: 0 0 0 5px rgb(4, 11, 20);
+}
+
+.sorty img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.step-1 h2 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #2C2F3F;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 1.8;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgb(62 62 62);
+}
+
+.icon i {
+    font-size: 17px;
+}
+
+.icon a:hover {
+    background-color: rgb(55, 179, 237);
+}
+
+.step-2 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.step-2 ul li {
+    margin: 25px 10px;
+}
+
+.step-2 a {
+    text-decoration: none;
+    color: rgb(168, 169, 180);
+    font-size: 19px;
+    transition: all .5s ease-in-out;
+}
+
+.step-2 .active i {
+    color: rgb(55, 179, 237);
+}
+
+.step-2 .active span {
+    color: #fff;
+}
+
+.step-2 a i {
+    margin-right: 10px;
+}
+
+.step-2 a:hover i {
+    color: rgb(55, 179, 237);
+}
+
+.step-2 a:hover span {
+    color: #fff;
+}
+
+
+/* end left portfolio */
+
+
+/* start right portfolio */
+
+.icon-mop {
+    position: absolute;
+    top: 18px;
+    right: 23px;
+    z-index: 99;
+}
+
+.icon-mop i {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.home {
+    padding: 0;
+}
+
+.back {
+    background-image: url(../image/count2.jpg);
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    /* background-attachment: fixed; */
+}
+
+.back::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0;
+    z-index: -1;
+}
+
+.back .step-1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back .step-1 h2 {
+    font-size: 50px;
+}
+
+.back .step-1 h2 span {
+    color: rgb(55, 179, 237);
+}
+
+.back .type-text {
+    font-size: 28px;
+}
+
+.back h3 {
+    color: #fff;
+}
+
+.back h3 span {
+    color: rgb(55, 179, 237);
+}
+
+.back .sorty-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 9px solid rgb(36 37 37); */
+    margin: 0 auto;
+    box-shadow: 0 0 0 10px rgb(36 37 37);
+    transition: all .5s ease-in-out;
+}
+
+.back .sorty-2:hover {
+    box-shadow: 0 0 0 10px rgb(4, 11, 20);
+}
+
+.back .sorty-2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.back .sahm i {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    animation: down 1.1s linear infinite;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+
+/* start about */
+
+.about {
+    padding: 200px 0;
+}
+
+.about h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 125px;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+}
+
+.about h2 {
+    margin: 100px 0;
+}
+
+.about h2 span {
+    color: rgb(55, 179, 237);
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.about p span {
+    color: rgb(55, 179, 237);
+}
+
+.about .info {
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.about .info-1 {
+    width: 70%;
+}
+
+.about .my-info {
+    margin: 20px 0;
+}
+
+.about .my-info i {
+    color: rgb(55, 179, 237);
+    margin-right: 5px;
+}
+
+.about .my-info span {
+    color: #000;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.zorar {
+    margin-top: 100px;
+}
+
+.zorar .btn-1 {
+    background: rgb(55, 179, 237);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 55px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.zorar .btn-1::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    right: 55%;
+    top: 0;
+    bottom: 0;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.zorar .btn-1:hover::before {
+    transition: all .5s ease-in-out;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+
+/* end about */
+
+
+/* start service */
+
+.service {
+    padding: 50px 0;
+}
+
+.service h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 125px;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+}
+
+.service ul {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service ul li {
+    width: 33%;
+}
+
+.service .web {
+    text-align: center;
+    padding: 50px 10px;
+    margin: 50px 20px 20px 20px;
+    border: 2px solid #ebebeb;
+    transition: all .5s ease-in-out;
+}
+
+
+/* .service .web:hover {
+    transform: translatey(-10px);
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 25px #858585, -5px -5px 25px #858585;
+    box-shadow: 0px 0px 25px #858585;
+} */
+
+.service .web i {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 35px;
+    line-height: 3;
+    box-shadow: 0 0 0 10px rgb(55, 179, 237);
+    margin-bottom: 35px;
+    transition: all .5s ease-in-out;
+}
+
+.service .web:hover i {
+    background-color: rgb(55, 179, 237);
+    color: #fff;
+    box-shadow: 0 0 0 10px #eee;
+}
+
+.service .web h2 {
+    margin-bottom: 25px;
+}
+
+.service .web p {
+    line-height: 1.7;
+}
+
+
+/* end service */
+
+
+/* start facts */
+
+.fact-main {
+    padding: 50px 0;
+}
+
+.fact-main h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 100px;
+    height: 3px;
+    display: block;
+    margin: 12px auto;
+}
+
+.fact-main p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.facts {
+    background: url(../image/back3.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding: 200px 0;
+}
+
+.facts::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.facts .fact-count {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.facts .client i {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(55, 179, 237);
+    font-size: 35px;
+    line-height: 2;
+    box-shadow: 0 0 0 2px #bdbaba;
+}
+
+.facts .client .num {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.facts .client span {
+    display: block;
+}
+
+
+/* end facts */
+
+
+/* start skills */
+
+.skills {
+    padding-top: 100px;
+}
+
+.skills h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 100px;
+    height: 3px;
+    display: block;
+    margin: 15px auto;
+}
+
+.skills p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.my-skills {
+    margin: 30px 0;
+}
+
+.my-skills span {
+    font-weight: 600;
+}
+
+.progress {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: rgb(55, 179, 237);
+}
+
+
+/* end skills */
+
+
+/* start creative */
+
+.creative {
+    padding: 150px 0;
+}
+
+.creative h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 150px;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+}
+
+.creative .show {
+    padding: 50px 0;
+}
+
+.creative .show .active {
+    color: rgb(55, 179, 237);
+}
+
+.creative .show ul li {
+    color: #000;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.creative .show ul li:hover {
+    color: rgb(55, 179, 237);
+}
+
+.creative .my-work ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.creative .my-work ul li {
+    width: 33%;
+}
+
+.creative .my-work .groub {
+    margin: 20px 10px;
+}
+
+.creative .my-work .groub img {
+    width: 340px;
+    height: 300px;
+}
+
+.my-work .mix {
+    display: none;
+}
+
+
+/* end creative */
+
+
+/* start slick */
+
+.slick {
+    background: url(../image/back6.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 70px 0;
+    z-index: 1;
+}
+
+.slick::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.open {
+    text-align: center;
+    cursor: pointer;
+}
+
+.open i {
+    color: #E3872D;
+    font-size: 40px;
+}
+
+.open h3 {
+    width: 80%;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.open p {
+    color: #fff;
+}
+
+.slick-slider {
+    overflow: hidden;
+}
+
+.slick-prev:before {
+    content: '';
+}
+
+.slick-next:before {
+    content: '';
+}
+
+
+/* end slick */
+
+
+/* start news */
+
+.news {
+    padding: 100px 0;
+}
+
+.news h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 150px;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+}
+
+.news ul {
+    flex-wrap: wrap;
+}
+
+.news ul li {
+    width: 33%;
+}
+
+.news .one {
+    border: 1px solid #eee;
+    margin: 100px 10px;
+}
+
+.news .one .family {
+    padding: 40px 20px;
+}
+
+.news .one span {
+    display: block;
+    color: rgb(55, 179, 237);
+    margin-bottom: 20px;
+}
+
+.news .one a {
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease-in-out;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.news .one a:hover {
+    color: rgb(55, 179, 237);
+}
+
+.news .one p {
+    margin: 30px 0;
+}
+
+.one .btn-1 {
+    background: rgb(55, 179, 237);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 55px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.one .btn-1::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.one .btn-1:hover::before {
+    transition: all .5s ease-in-out;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+
+/* end news */
+
+
+/* start contact-me */
+
+.contact-me {
+    padding: 100px 0;
+}
+
+.contact-me h1::after {
+    content: "";
+    background-color: rgb(55, 179, 237);
+    width: 140px;
+    height: 3px;
+    display: block;
+    margin-top: 20px
+}
+
+.touch {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-me .touch-1 {
+    margin: 30px 0;
+    width: 50%;
+}
+
+.contact-me .touch-1 p {
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-me .touch-1 span {
+    color: rgb(55, 179, 237);
+    font-weight: 500;
+}
+
+.contact-me .touch-2 {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.contact-me .touch-2 label {
+    margin-top: 30px;
+}
+
+.touch-2 .btn-1 {
+    background: rgb(55, 179, 237);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 55px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.touch-2 .btn-1::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    left: 55%;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.touch-2 .btn-1:hover::before {
+    transition: all .5s ease-in-out;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+
+/* end contact-us */
+
+
+/* start copy right */
+
+.copy-right {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* end copy right */
+
+
+/* start scroll-top-scroll */
+
+.scroll-to-top i {
+    font-size: 40px;
+    color: rgb(55, 179, 237);
+    padding: 10px 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: block;
+    display: none;
+    z-index: 99;
+}
+
+
+/* end scroll-top-scroll */
+
+
+/* end right portfolio */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #000;
+}
